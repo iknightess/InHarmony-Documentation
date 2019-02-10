@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -63,6 +87,16 @@ $(function() {
 <div class="contents">
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
+<h3><a id="index_b"></a>- b -</h3><ul>
+<li>bRandomNote
+: <a class="el" href="class_u_tune_in_component.html#a15d74e3cff859a25806fd72c827d0633">UTuneInComponent</a>
+</li>
+<li>bTuneInCompleted
+: <a class="el" href="class_u_tune_in_component.html#ac9323671bc1d318aff8c44b1337ca7c5">UTuneInComponent</a>
+</li>
+</ul>
+
+
 <h3><a id="index_d"></a>- d -</h3><ul>
 <li>Dodge()
 : <a class="el" href="class_a_dancer.html#a32d19005f5277e02bb87ad5554b09998">ADancer</a>
@@ -78,6 +112,13 @@ $(function() {
 <li>ErrorCheck()
 : <a class="el" href="class_a_audio_manager.html#aadc7b1603517c557e15ac6269aee7e99">AAudioManager</a>
 , <a class="el" href="class_u_sound_manager.html#a7fb61555405d73ac4f48e7737a941be2">USoundManager</a>
+</li>
+</ul>
+
+
+<h3><a id="index_g"></a>- g -</h3><ul>
+<li>GetPlayerNote()
+: <a class="el" href="class_u_tune_in_component.html#a2172786f0a426eb7741e502be1c7d9a8">UTuneInComponent</a>
 </li>
 </ul>
 
@@ -133,6 +174,18 @@ $(function() {
 
 
 <h3><a id="index_m"></a>- m -</h3><ul>
+<li>mMarginOfError
+: <a class="el" href="class_u_tune_in_component.html#aaff7c7b51cf2a86b0df8df0c9b52f626">UTuneInComponent</a>
+</li>
+<li>mNote
+: <a class="el" href="class_u_tune_in_component.html#a0aef59c844ed641b509d4a87b98793d5">UTuneInComponent</a>
+</li>
+<li>mNoteDistanceScaleFactor
+: <a class="el" href="class_u_tune_in_component.html#a7209a892b5a625f34d1fdc02dae479c8">UTuneInComponent</a>
+</li>
+<li>mNumNotes
+: <a class="el" href="class_u_tune_in_component.html#aef5fa374000aa7592f7a0f279b6cd025">UTuneInComponent</a>
+</li>
 <li>MoveForward()
 : <a class="el" href="class_a_dancer.html#a5ec7c2e18a17ef8dfa2ca1511537abc0">ADancer</a>
 </li>
@@ -149,10 +202,17 @@ $(function() {
 <li>OnPerformDanceMove()
 : <a class="el" href="class_a_interactable.html#ae322537c0d3f43331269656557f3150b">AInteractable</a>
 , <a class="el" href="class_i_dance_movable.html#ae14950b06760786936ea0f27c4a1b3d2">IDanceMovable</a>
+, <a class="el" href="class_u_tune_in_component.html#a8af947e3b7da3396627560992e072adc">UTuneInComponent</a>
 </li>
 <li>OnStopDancing()
 : <a class="el" href="class_a_interactable.html#a1e7d628b43fa7bdb1ff614fae4d03d8e">AInteractable</a>
 , <a class="el" href="class_i_dance_movable.html#a4db261f12e4d57fc21d0f52cfaf4571d">IDanceMovable</a>
+</li>
+<li>OnTuneInSuccess()
+: <a class="el" href="class_u_tune_in_component.html#aa65fe548d14b3ba4cc24c7631c551b33">UTuneInComponent</a>
+</li>
+<li>OnTuneInSuccessEvent
+: <a class="el" href="class_u_tune_in_component.html#a74e12fffe538368cb80cb1b5779e3bcf">UTuneInComponent</a>
 </li>
 </ul>
 
@@ -185,7 +245,17 @@ $(function() {
 </ul>
 
 
+<h3><a id="index_r"></a>- r -</h3><ul>
+<li>RequiredMove
+: <a class="el" href="class_u_tune_in_component.html#a9a9c4aa1ca92ee48979803dc9fa54788">UTuneInComponent</a>
+</li>
+</ul>
+
+
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>SetNote()
+: <a class="el" href="class_u_tune_in_component.html#ad071fb94ced701a990928cf8e0e1f168">UTuneInComponent</a>
+</li>
 <li>StopAllChannels()
 : <a class="el" href="class_u_sound_manager.html#a2539d3cef4173221b1256b0593bd08bc">USoundManager</a>
 </li>
@@ -224,11 +294,14 @@ $(function() {
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

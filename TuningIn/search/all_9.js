@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['parseattributenodes',['ParseAttributeNodes',['../class_a_audio_manager.html#a22c866099a47d6ff2bbf1fc490484a19',1,'AAudioManager::ParseAttributeNodes()'],['../class_u_sound_manager.html#a7f74b9242f1a528b8b491e74b8ac449d',1,'USoundManager::ParseAttributeNodes()']]],
-  ['parseaudioxml',['ParseAudioXml',['../class_a_audio_manager.html#a0ad9b8d0af17950f91f7dd6adba4a3a9',1,'AAudioManager::ParseAudioXml()'],['../class_u_sound_manager.html#ad0f5547a6fdcdea3b5b224f82be882a6',1,'USoundManager::ParseAudioXml()']]],
-  ['parsechildrennodes',['ParseChildrenNodes',['../class_a_audio_manager.html#ad3cc52595f62ccff21a9ebf1d7039bf6',1,'AAudioManager::ParseChildrenNodes()'],['../class_u_sound_manager.html#aaedb9095c34f1f340c066cdc2c9061f5',1,'USoundManager::ParseChildrenNodes()']]],
-  ['pauseevent',['PauseEvent',['../class_a_audio_manager.html#a9139ea585375d51369564b92d6132625',1,'AAudioManager::PauseEvent()'],['../class_u_sound_manager.html#adf20a847df1d254d145a87819d0f5549',1,'USoundManager::PauseEvent()']]],
-  ['playevent',['PlayEvent',['../class_a_audio_manager.html#ae0565d6fbb1181d888784a1adf9aa9f1',1,'AAudioManager::PlayEvent()'],['../class_u_sound_manager.html#a46db79159d05c221083df50ae248f560',1,'USoundManager::PlayEvent()']]],
-  ['playsounds',['PlaySounds',['../class_a_audio_manager.html#a398b920e7075aeffea6b26fdeb8330ee',1,'AAudioManager::PlaySounds()'],['../class_u_sound_manager.html#ab86618a140775b6dbd2f1191aab3eb7a',1,'USoundManager::PlaySounds()']]]
+  ['ondancingtimerended',['OnDancingTimerEnded',['../class_a_interactable.html#a62f97e47879b6e0cc5fcfb80fb932a0b',1,'AInteractable']]],
+  ['onperformdancemove',['OnPerformDanceMove',['../class_i_dance_movable.html#ae14950b06760786936ea0f27c4a1b3d2',1,'IDanceMovable::OnPerformDanceMove()'],['../class_a_interactable.html#ae322537c0d3f43331269656557f3150b',1,'AInteractable::OnPerformDanceMove()'],['../class_u_tune_in_component.html#a8af947e3b7da3396627560992e072adc',1,'UTuneInComponent::OnPerformDanceMove()']]],
+  ['onstopdancing',['OnStopDancing',['../class_i_dance_movable.html#a4db261f12e4d57fc21d0f52cfaf4571d',1,'IDanceMovable::OnStopDancing()'],['../class_a_interactable.html#a1e7d628b43fa7bdb1ff614fae4d03d8e',1,'AInteractable::OnStopDancing()']]],
+  ['ontuneinsuccess',['OnTuneInSuccess',['../class_u_tune_in_component.html#aa65fe548d14b3ba4cc24c7631c551b33',1,'UTuneInComponent']]],
+  ['ontuneinsuccessevent',['OnTuneInSuccessEvent',['../class_u_tune_in_component.html#a74e12fffe538368cb80cb1b5779e3bcf',1,'UTuneInComponent']]]
 ];

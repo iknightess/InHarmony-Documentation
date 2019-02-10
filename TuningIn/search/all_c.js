@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['udancemovable',['UDanceMovable',['../class_u_dance_movable.html',1,'']]],
-  ['umygameinstance',['UMyGameInstance',['../class_u_my_game_instance.html',1,'']]],
-  ['unloadsound',['UnLoadSound',['../class_a_audio_manager.html#aae90b074b0be16108ead74778ed8c279',1,'AAudioManager::UnLoadSound()'],['../class_u_sound_manager.html#ae7eea2d2f8d28d03d2c031aeae092970',1,'USoundManager::UnLoadSound()']]],
-  ['update',['Update',['../class_a_audio_manager.html#a296bceba280e9c5997ab6fe913c86de7',1,'AAudioManager::Update()'],['../class_u_sound_manager.html#ab1c27a7c202861c792f4b91c20bd1296',1,'USoundManager::Update()']]],
-  ['usoundmanager',['USoundManager',['../class_u_sound_manager.html',1,'']]]
+  ['setnote',['SetNote',['../class_u_tune_in_component.html#ad071fb94ced701a990928cf8e0e1f168',1,'UTuneInComponent']]],
+  ['stopallchannels',['StopAllChannels',['../class_u_sound_manager.html#a2539d3cef4173221b1256b0593bd08bc',1,'USoundManager']]],
+  ['stopchannel',['StopChannel',['../class_a_audio_manager.html#a424b9318c854a5bde1f8f00f5009f0b8',1,'AAudioManager::StopChannel()'],['../class_u_sound_manager.html#a6514a36588105b4c182b1492140a9a95',1,'USoundManager::StopChannel()']]],
+  ['stopevent',['StopEvent',['../class_a_audio_manager.html#a28b1cde6bb83094eb48adc054f6ebad2',1,'AAudioManager::StopEvent()'],['../class_u_sound_manager.html#a5ea366c8c0d84c96ce6e0bb4bafe0283',1,'USoundManager::StopEvent()']]]
 ];
